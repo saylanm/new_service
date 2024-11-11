@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1119px) {
 
     .main {
         width: 769px;
@@ -176,6 +176,10 @@
 
  .block_768 {
     margin-right: 20px;
+ }
+
+ .block_image_1120px {
+    display: none;
  }
 
 }

@@ -1,5 +1,10 @@
 @media screen and (min-width: 1120px) { 
     
+    body {
+        background: #F8F8F8;
+    }
+
+
     .image_block {
         width: 531.35px;
         height: 383.24px;
@@ -7,19 +12,6 @@
 
     .block-text__three {
         display: flex;
-    }
-
-    .block-main {
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        height: 40px;
-        width: 1096px;
-        margin-left: 10px;
-        margin-right: 15px;
-        overflow-y: hidden;
-        white-space: nowrap;
-        gap: 65px;
     }
 
     .block_320 {
@@ -37,5 +29,119 @@
         
     }
     
+    .main-logo {
+        width: 1096px;
+        height: 130px;
+        display: flex;
+        gap: 25px;
+        margin: 20px 0;
+        align-items: center;
+        justify-content: end;
+    }
 
+    .block_image_1120px {
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        gap: 25px;
+        margin-left: 340px;
+    }
+
+    .button--1120px {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        justify-content: end;
+        border: none;
+        background: #F8F8F8
+        
+    }
+
+    .main-logo__name {
+        display: flex;
+        justify-content: start;
+        margin-left: 25px;
+    }
+
+    .main-logo__img {
+        margin-left: 50px;
+    }
+
+    .block-main {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        height: 40px;
+        width: 1096px;
+        margin-left: 52px;
+        margin-right: 15px;
+        overflow-y: hidden;
+        white-space: nowrap;
+        gap: 55px;
+    }
+
+    .block-main-button__active {
+        border: 3px solid #B8FFEC;
+        padding: 8px;
+        border-radius: 0.3em;
+    }
+
+    .block-text {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flex-column {
+        width: 490px;
+        margin-top: 20px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .flex-column:nth-child(1) { /* не надежно, но сойдет */
+        gap: 0;
+    }
+
+    .image_block {
+        display: flex;
+        margin-left: 40px;
+        margin-top: 20px;
+        width: 531.35px;
+        height: 307px;
+        border-radius: 0.3em;
+    }
+
+    .block-text__two {
+        margin-top: 20px;
+        margin-bottom: 0;
+
+    }
+
+    .block-text__three {
+        margin-top: 0;
+        
+    }
+
+    .container-read {
+        margin-top: 15px;
+        display: flex;
+        gap: 5px;
+        margin-left: 30px;
+
+    }
+
+    .block-text_768, .block-text__three {
+        font-size: 14px;
+        margin-top: 15px;
+        margin-left: 35px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .block_image_320px {
+        display: none;
+    }
  }
