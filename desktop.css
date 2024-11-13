@@ -173,6 +173,7 @@
 
     .block-text_768, .block-text__three {
         font-size: 14px;
+        line-height: 20px;
         margin-top: 15px;
         margin-left: 35px;
         display: flex;
@@ -183,7 +184,4 @@
     .block_image_320px {
         display: none;
     }
-
-
- }
-
+}
