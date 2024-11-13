@@ -67,18 +67,9 @@
         display: flex;
     }
 
-    .block-text__one {
-      display: flex;
- 
-    }
 
-    .block-text__two {
-        display: flex;
-        flex-direction: row;
 
-    }
-
-    .block-text__three {
+    .span-text {
         display: none;
     }
 
@@ -99,7 +90,8 @@
     .block-text__two, .block-text__one {
         display: flex;
         gap: 15px;
-        margin-left: 13px;
+        margin-left: 35px;
+        width: 319px;
     }
 
     .main-logo {
@@ -134,7 +126,7 @@
 
     .block-text__one {
         display: flex;
-        margin: 10px 10px;
+        margin: 20px 35px;
         flex-direction: column;
     }
 
@@ -144,14 +136,19 @@
 
     }
 
-    .block-text_768 {
+    .main-logo__name {
+        margin-left: 15px;
+    }
+
+    .block-text_768, .block-text__two {
         font-size: 14px;
-        margin-top: 15px;
-        margin-left: 20px;
+
         display: flex;
         flex-direction: column;
 
     }
+
+    
 
     .container-read {
         margin-top: 15px;
