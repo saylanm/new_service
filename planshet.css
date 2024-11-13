@@ -180,4 +180,10 @@
     display: none;
  }
 
+ .button-v2, .block-main-button--1120 {
+    padding: 20px;
+    border: none;
+    background: #F8F8F8;
+    }
+
 }

@@ -62,7 +62,6 @@
         border: none;
         background: #F8F8F8;
         white-space: nowrap;
-        
     }
 
     .main-logo__name {
@@ -71,7 +70,6 @@
         height: auto;
         justify-content: start;
         white-space: nowrap;
-        
     }
 
 
@@ -109,13 +107,9 @@
     }
 
     .block-main-button {
-        margin-right: 40px;
+        margin-right: 45px;
     }
 
-    .block-main-button--1120 {
-        margin-top: 10px;
-        margin-left: 10px;
-    }
 
     .block-main-button__active {
         display: flex;
@@ -183,5 +177,11 @@
 
     .block_image_320px {
         display: none;
+    }
+
+    .button-v2, .block-main-button--1120 {
+    padding: 20px;
+    border: none;
+    background: #F8F8F8;
     }
 }
