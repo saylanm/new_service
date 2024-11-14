@@ -1,9 +1,9 @@
-@media screen and (min-width: 320px) and (max-width: 767px){
+@media screen and (min-width: 320px) and (max-width: 767px) {
     body {
         font-family: "TT Lakes", "Arial", sans-serif;
     }
 
-    .header-block__navigation {
+    .header-navigation {
         display: flex;
         width: 320px;
         height: 88px;
@@ -17,7 +17,7 @@
         align-items: center;
     }
 
-    .main-logo{
+    .main-logo {
         display: flex;
         justify-content: start;
         gap: 10px;
@@ -25,8 +25,8 @@
         width: 304px;
         height: 40px;
         margin-bottom: 30px;
-    }   
-    
+    }
+
     .block-main {
         display: flex;
         justify-content: start;
@@ -39,12 +39,12 @@
         overflow-y: hidden;
         white-space: nowrap;
         gap: 15px;
-        
-        
-        
+
+
+
     }
 
-    .block-main-button__active {
+    .block-main__button--active {
         font-size: 16px;
         border: 2px solid #B8FFEC;
         padding: 10px;
@@ -52,11 +52,11 @@
 
     }
 
-    .block-main-button {
+    .block-main__button {
         padding: 15px;
     }
 
-    .block-text__one {
+    .block-text_768__block-text--one {
         font-size: 14px;
         display: flex;
         margin: 15px 10px;
@@ -79,7 +79,7 @@
         margin-bottom: 20px;
 
     }
-    
+
     .container-read__iamge {
         display: flex;
         width: 24px;
@@ -91,26 +91,39 @@
         display: none;
     }
 
-    .img-divider-2 {
+    .block_image_768px {
         display: none;
     }
 
-    .image_block {
+    .block_image_320px__img-divider-2 {
+        display: none;
+    }
+
+
+    .block-text__image_block {
         width: 320px;
         height: 176px;
     }
-    .block-text__three, .block-text__two {
+
+    .flex-column__block-text--three,
+    .block-text__two {
         display: none;
     }
 
-    .block-text__one {
+    .block-text_768__block-text--one {
         width: 288px;
         height: 90px;
+    }
+
+    .block_image_320px__img {
+        display: flex;
+        gap: 15px;
     }
 
     .block_image_320px {
         display: flex;
         gap: 15px;
+        margin-right: 15px;
     }
 
 
@@ -121,13 +134,14 @@
 
     .block_image_1120px {
         display: none;
-     }
+    }
 
-    
-    .button-v2, .block-main-button--1120 {
-       font-size: 16px;
-       padding: 20px;
-       border: none;
-       background: #F8F8F8;
-       }
+
+    .button-v2,
+    .block-main__button--1120 {
+        font-size: 16px;
+        padding: 20px;
+        border: none;
+        background: #F8F8F8;
+    }
 }
