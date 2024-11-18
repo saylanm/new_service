@@ -14,6 +14,55 @@ body {
 
 }
 
+.header-navigation__button--repair {
+    width: 40px;
+    height: 40px;
+    background-image: url("./image/repair.svg");
+    border: none;
+    background-color: #F8F8F8;
+
+}
+
+.header-navigation__button--checkstatus {
+    width: 40px;
+    height: 40px;
+    background-image: url("./image/checkstatus.svg");
+    border: none;
+    background-color: #F8F8F8;
+}
+
+.header-navigation__button--burger {
+    width: 40px;
+    height: 40px;
+    background-image: url("./image/burger.svg");
+    border: none;
+    background-color: #F8F8F8;
+}
+
+.header-navigation__button--call {
+    width: 40px;
+    height: 40px;
+    background-image: url("./image/call.svg");
+    border: none;
+    background-color: #F8F8F8;
+    }
+
+.header-navigation__button--chat {
+    width: 40px;
+    height: 40px;
+    background-image: url("./image/chat.svg");
+    border: none;
+    background-color: #F8F8F8;
+    }
+
+.header-navigation__button--profile {
+    width: 40px;
+    height: 40px;
+    background-image: url("./image/profile.svg");
+    border: none;
+    background-color: #F8F8F8;
+    }
+
 .block_320__img-group {
     width: 96.55px;
     height: 50.81px;
@@ -34,6 +83,10 @@ body {
     background: #ffffff;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     body {
@@ -64,7 +117,7 @@ body {
         margin-bottom: 30px;
     }
 
-    .block-main {
+    .main-navigation {
         display: flex;
         justify-content: start;
         align-items: center;
@@ -81,7 +134,7 @@ body {
 
     }
 
-    .block-main__button--active {
+    .main-navigation__button--active {
         font-size: 16px;
         border: 2px solid #B8FFEC;
         padding: 10px;
@@ -89,7 +142,7 @@ body {
 
     }
 
-    .block-main__button {
+    .main-navigation__button {
         padding: 15px;
     }
 
@@ -175,7 +228,7 @@ body {
 
 
     .button-v2,
-    .block-main__button--1120 {
+    .main-navigation__button--1120 {
         font-size: 16px;
         padding: 20px;
         border: none;
@@ -290,7 +343,7 @@ body {
         margin: 20px 0;
     }
 
-    .block-main {
+    .main-navigation {
         font-size: 14px;
         line-height: 20px;
         display: flex;
@@ -305,13 +358,13 @@ body {
         gap: 15px;
     }
 
-    .block-main__button--active {
+    .main-navigation__button--active {
         border: 3px solid #B8FFEC;
         padding: 8px;
         border-radius: 0.3em;
     }
 
-    .block-main__button {
+    .main-navigation__button {
         padding: 15px;
     }
 
@@ -375,7 +428,7 @@ body {
     }
 
     .button-v2,
-    .block-main__button--1120 {
+    .main-navigation__button--1120 {
         padding: 20px;
         border: none;
         background: #F8F8F8;
@@ -430,29 +483,52 @@ body {
         align-items: center;
     }
 
-    .block_image_1120px {
-        display: flex;
-        justify-content: end;
-        align-items: center;
-        gap: 25px;
-        margin-left: 400px;
-        margin-right: 5px;
-    }
 
     .main-logo__img {
         display: flex;
         margin-right: 25px;
     }
 
-    .block_image_1120px__button-1120px {
+    .block_image_1120px {
         display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 40px;
+        margin-left: 350px;
+        margin-right: 5px;
+    }
+
+    .icon {
+        display: flex;
+        white-space: nowrap;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .block_image_1120px__button-1120px--repair {
         align-items: center;
         gap: 15px;
         justify-content: end;
-        border: none;
-        background: #F8F8F8;
         white-space: nowrap;
+        width: 40px;
+        height: 40px;
+        background-image: url("./image/repair.svg");
+        border: none;
+        background-color: #F8F8F8;
     }
+
+    .block_image_1120px__button-1120px--checkstatus {
+        align-items: center;
+        justify-content: end;
+        border: none;
+        white-space: nowrap;
+        width: 40px;
+        height: 40px;
+        background-image: url("./image/checkstatus.svg");
+        border: none;
+        background-color: #F8F8F8;
+    }
+
 
     .main-logo__name {
         display: flex;
@@ -471,7 +547,7 @@ body {
     }
 
 
-    .block-main__button {
+    .main-navigation__button {
         display: flex;
         margin-right: 0px;
         justify-content: center;
@@ -480,7 +556,7 @@ body {
     }
 
 
-    .block-main__button--active {
+    .main-navigation__button--active {
         display: flex;
         white-space: nowrap;
         border: 3px solid #B8FFEC;
@@ -544,7 +620,7 @@ body {
 
     }
     
-    .block-main {
+    .main-navigation {
         display: flex;
         font-size: 16px;
         flex-wrap: wrap;
@@ -570,7 +646,7 @@ body {
         margin-right: 25px;
     }
 
-    .button-v2, .block-main__button--1120 {
+    .button-v2, .main-navigation__button--1120 {
     display: flex;
     align-items: center;
     padding: 10px 20px;
@@ -582,7 +658,7 @@ body {
     }
 
 
-    .block-main__button--active {
+    .main-navigation__button--active {
         padding: 10px 20px;
 
     }
