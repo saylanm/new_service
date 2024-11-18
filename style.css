@@ -6,6 +6,7 @@
 
 body {
     font-family: "TT Lakes", "Arial", sans-serif;
+
 }
 
 .block_image_320px__img {
@@ -88,10 +89,67 @@ a {
     color: black;
 }
 
+.logo {
+    margin-top: 30px;
+    display: flex;
+    width: 288px;
+    height: 90px;
+}
+
+.logotip {
+    display: flex;
+    background-image: url("./image/highlight.svg");
+    width: 4px;
+    height: 40px;
+}
+
+.main-logo__name {
+    font-size: 28px;
+    display: flex;
+    width: 266px;
+    height: auto;
+    justify-content: start;
+    white-space: nowrap;
+    margin-left: 20px;
+}
+
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
     body {
         font-family: "TT Lakes", "Arial", sans-serif;
     }
+
+    .header-block {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: auto;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        display: flex;
+        width: 288px;
+        height: 90px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        
+    }
+
+    .main-logo__name {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 266px;
+        height: auto;
+        justify-content: start;
+        white-space: nowrap;
+        margin-left: 15px;
+    }
+
 
     .header-navigation {
         display: flex;
@@ -114,7 +172,9 @@ a {
         align-items: center;
         width: 304px;
         height: 40px;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+
     }
 
     .main-navigation {
@@ -123,15 +183,12 @@ a {
         align-items: center;
         height: 50px;
         width: auto;
-        margin-left: 10px;
+        margin-left: 15px;
         margin-right: 15px;
-        margin-top: 15px;
+        margin-top: 30px;
         overflow-y: hidden;
         white-space: nowrap;
         gap: 15px;
-
-
-
     }
 
     .main-navigation__button--active {
@@ -145,11 +202,19 @@ a {
     .main-navigation__button {
         padding: 15px;
     }
+    
+    .block-text_768 {
+        display: flex;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        gap: auto;
+    }
 
     .block-text_768__block-text--one {
         font-size: 14px;
         display: flex;
-        margin: 15px 10px;
+        margin: 15px 15px;
         flex-direction: column;
         line-height: 18px;
     }
@@ -165,8 +230,8 @@ a {
         align-items: center;
         margin-left: 10px;
         gap: 10px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 15px;
 
     }
 
@@ -189,9 +254,11 @@ a {
         display: none;
     }
 
-
-    .block-text__image_block {
-        width: 320px;
+    .CPS {
+        display: flex;
+        width: 100%;
+        justify-content: end;
+        gap: auto;
         height: 176px;
     }
 
@@ -239,8 +306,25 @@ a {
 @media screen and (min-width: 768px) and (max-width: 1119px) {
 
     .main {
-        width: 769px;
+        max-width: 100%;
     }
+
+    .CPS {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: end;
+        gap: auto;
+        height: 100%;
+    }
+
+    .header-block {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: auto;
+    }
+
 
     .header-navigation {
         display: flex;
@@ -343,6 +427,13 @@ a {
         margin: 20px 0;
     }
 
+    .logo {
+        margin-top: 30px;
+        display: flex;
+        width: 288px;
+        height: 30px;
+    }
+
     .main-navigation {
         font-size: 14px;
         line-height: 20px;
@@ -382,7 +473,7 @@ a {
     }
 
     .main-logo__name {
-        margin-left: 15px;
+        margin-left: 30px;
     }
 
     .block-text_768,
@@ -536,6 +627,7 @@ a {
         height: auto;
         justify-content: start;
         white-space: nowrap;
+        margin-left: 50px;
     }
 
 
@@ -591,12 +683,6 @@ a {
         border-radius: 0.3em;
     }
 
-    .block-text__two {
-        margin-top: 0px;
-        margin-bottom: 0;
-
-    }
-
     .flex-column__block-text--three {
         margin-top: 0;
         
@@ -620,6 +706,15 @@ a {
 
     }
     
+    .block-text__two {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 35px;
+
+    }
+
     .main-navigation {
         display: flex;
         font-size: 16px;
