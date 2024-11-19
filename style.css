@@ -582,11 +582,12 @@ a {
 
     .block_image_1120px {
         display: flex;
-        justify-content: end;
+        justify-content: center;
         align-items: center;
         gap: 40px;
-        margin-left: 350px;
+        margin-left: 290px;
         margin-right: 5px;
+        margin-bottom: 30px;
     }
 
     .icon {
@@ -594,6 +595,7 @@ a {
         white-space: nowrap;
         align-items: center;
         gap: 10px;
+        order: 1;
     }
 
     .block_image_1120px__button-1120px--repair {
@@ -606,6 +608,7 @@ a {
         background-image: url("./image/repair.svg");
         border: none;
         background-color: #F8F8F8;
+        order: 2;
     }
 
     .block_image_1120px__button-1120px--checkstatus {
@@ -618,7 +621,9 @@ a {
         background-image: url("./image/checkstatus.svg");
         border: none;
         background-color: #F8F8F8;
+        order: 2;
     }
+
 
 
     .main-logo__name {
@@ -674,14 +679,6 @@ a {
         gap: 0;
     }
 
-    .block-text__image_block {
-        display: flex;
-        margin-left: 40px;
-        margin-top: 20px;
-        width: 531.35px;
-        height: 307px;
-        border-radius: 0.3em;
-    }
 
     .flex-column__block-text--three {
         margin-top: 0;
@@ -756,5 +753,20 @@ a {
     .main-navigation__button--active {
         padding: 10px 20px;
 
+    }
+
+    .block-text__image_block {
+        display: flex;
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 531.35px;
+        height: 307px;
+        border-radius: 0.3em;
+    }
+
+    .CPS {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
