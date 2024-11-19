@@ -402,6 +402,8 @@ a {
         height: 208px;
         border-radius: 6px;
         margin-left: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
     }
 
     .block-text {
@@ -502,11 +504,6 @@ a {
         width: 312px;
     }
 
-    .block-text__image_block {
-        margin-left: 20px;
-        margin-top: 20px;
-    }
-
     .block_768 {
         margin-right: 20px;
     }
@@ -534,14 +531,6 @@ a {
 
     body {
         background: #F8F8F8;
-    }
-
-
-    .block-text__image_block {
-        width: 531.35px;
-        height: 383.24px;
-        margin-left: 20px;
-        margin-top: 20px;
     }
 
     .flex-column__block-text--three {
@@ -773,7 +762,5 @@ a {
         margin-bottom: 45px;
 
     }
-
-
     
 }
