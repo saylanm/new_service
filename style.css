@@ -546,16 +546,17 @@ a {
     }
 
     .header-navigation {
-        width: 1096px;
+        min-width: 1096px;
         display: flex;
         justify-content: end;
         
     }
     
     .main-logo {
-        width: 1096px;
-        height: 80px;
+        min-width: 1096px;
+        min-height: 80px;
         display: flex;
+        justify-content: space-between;
         gap: 25px;
         margin: 20px 0;
         margin-bottom: 0;
@@ -574,7 +575,7 @@ a {
         align-items: center;
         gap: 40px;
         margin-left: 290px;
-        margin-right: 5px;
+        margin-right: 55px;
         margin-bottom: 30px;
     }
 
@@ -616,8 +617,8 @@ a {
 
     .main-logo__name {
         display: flex;
-        width: 266px;
-        height: auto;
+        min-width: 266px;
+        min-height: auto;
         justify-content: start;
         white-space: nowrap;
         margin-left: 50px;
@@ -655,7 +656,7 @@ a {
     }
 
     .flex-column {
-        width: 490px;
+        min-width: 490px;
         margin-top: 20px;
         margin-left: 20px;
         display: flex;
@@ -707,7 +708,7 @@ a {
         justify-content: start;
         align-items: center;
         height: 82px;
-        width: 1096px;
+        min-width: 1096px;
         margin-left: 52px;
         margin-right: 15px;
 
@@ -745,8 +746,8 @@ a {
 
     .CPS {
         margin: 0;
-        width: 531.35px;
-        height: 383px;
+        min-width: 531.35px;
+        min-height: 383px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -754,13 +755,14 @@ a {
 
     .block-text__image_block {
         display: flex;
-        width: 531.35px;
-        height: 277px;
+        min-width: 531.35px;
+        min-height: 277px;
         border-radius: 0.6em;
         margin-right: 110px;
         margin-left: 110px;
         margin-bottom: 45px;
 
     }
+
     
 }
